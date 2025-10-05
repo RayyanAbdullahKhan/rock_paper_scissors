@@ -23,24 +23,23 @@ It was built to practice:
 - Randomization with `random.choice()`
 - Clean, user-friendly console input/output
 
----
-
---------------------
-🧩 Game Logic;
-Player Move	--> Computer Move  --> 	Outcome
-
-Rock	Scissors	    :     ✅ You win!
-Paper	Rock	        :     ✅ You win!
-Scissors	Paper	    :     ✅ You win!
-Same Move	Same Move	:     🤝 It's a tie!
---------------------
+-----------------------------------------------
+🧩 Game Logic
+- Player --> Move	Computer --> Move	Outcome
+- Rock --> Scissors -->✅ You win!
+- Paper --> Rock	--> ✅ You win!
+- Scissors --> Paper --> ✅ You win!
+- Same Move -->	 Same Move --> 🤝 It's a tie!
+------------------------------------------------
 💻 Example Gameplay
+------------------------------------------------
+- Choose your move: rock, paper, or scissors? rock
 
-- Choose your move  :    --> rock, paper, or scissors? --> rock
-- Computer chose    :    --> scissors
-- Output            :    --> You win! Rock crushes scissors!
---------------------
-🚀 Possible Improvements;
+- Computer chose: scissors
+
+- You win! Rock crushes scissors!
+-------------------------------------------------
+- 🚀 Possible Improvements
 
 - Add a score tracker
 
@@ -49,8 +48,3 @@ Same Move	Same Move	:     🤝 It's a tie!
 - Introduce Rock–Paper–Scissors–Lizard–Spock
 
 - Add animations or sound effects
---------------------
-🧠 Reflection;
-
-- This was one of my first Python projects.
-  It’s small, but it taught me the logic and structure that every bigger project builds on.
